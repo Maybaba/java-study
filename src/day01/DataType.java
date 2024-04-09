@@ -37,7 +37,7 @@ public class DataType {
         System.out.println(b * i);
 
         //문자형 char : 2byte 0~65536 음수를 표현할 필요가 없음 : 한글자를 표현하는데 사용
-        char text = 65534; //아스키코드에 할당된 문자들을 표현
+        char text = 65534; // 2byte 아스키코드에 할당된 문자들을 표현
         System.out.println("text =" +text);
 
         //문자열 : 문자 배열

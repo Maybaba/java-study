@@ -4,13 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33d5ee65-a7bb-42e2-b395-7d4ace52d9c9" name="Changes" comment="# test commit">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/DataType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/TypeCasting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/Variable.java" afterDir="false" />
+    <list default="true" id="33d5ee65-a7bb-42e2-b395-7d4ace52d9c9" name="Changes" comment="# day 1 commit&#10;1. variable&#10;2. data type&#10;3. type casting">
+      <change afterPath="$PROJECT_DIR$/src/day02/ArrayBasic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day02/ArrayCopy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day02/ArrayDelete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day02/ArrayPop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day02/ArrayPush.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day02/ArrayQuiz01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day02/ArrayQuiz02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day02/ArrayQuiz03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day02/ArraySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day02/RandomExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day02/ScannerPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day02/stdIO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day01/DataType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01/DataType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day01/TypeCasting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01/TypeCasting.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +36,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Maybaba&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="aed07328-e251-4e70-98d2-871898fe45ca" />
+        <option name="url" value="https://github.com/Maybaba/java-study.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -40,11 +63,22 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ArrayBasic.executor": "Run",
+    "Application.ArrayCopy.executor": "Run",
+    "Application.ArrayDelete.executor": "Run",
+    "Application.ArrayPop.executor": "Run",
+    "Application.ArrayPush.executor": "Run",
+    "Application.ArrayQuiz01.executor": "Run",
+    "Application.ArrayQuiz02.executor": "Run",
+    "Application.ArrayQuiz03.executor": "Run",
+    "Application.ArraySearch.executor": "Run",
     "Application.DataType.executor": "Run",
     "Application.Main.executor": "Run",
-    "Application.TypeCasting.executor": "Debug",
+    "Application.ScannerPractice.executor": "Run",
+    "Application.TypeCasting.executor": "Run",
     "Application.Variable.executor": "Run",
     "Application.Variavble.executor": "Run",
+    "Application.stdIO.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -64,13 +98,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TypeCasting">
-    <configuration name="DataType" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day01.DataType" />
+  <component name="RunManager" selected="Application.ArrayQuiz03">
+    <configuration name="ArrayDelete" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day02.ArrayDelete" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day01.*" />
+          <option name="PATTERN" value="day02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,19 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="java-study" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TypeCasting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day01.TypeCasting" />
+    <configuration name="ArrayQuiz01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day02.ArrayQuiz01" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day01.*" />
+          <option name="PATTERN" value="day02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +125,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Variable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day01.Variable" />
+    <configuration name="ArrayQuiz02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day02.ArrayQuiz02" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day01.*" />
+          <option name="PATTERN" value="day02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayQuiz03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day02.ArrayQuiz03" />
+      <module name="java-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArraySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day02.ArraySearch" />
+      <module name="java-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TypeCasting" />
-        <item itemvalue="Application.DataType" />
-        <item itemvalue="Application.Variable" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ArrayQuiz03" />
+        <item itemvalue="Application.ArraySearch" />
+        <item itemvalue="Application.ArrayQuiz02" />
+        <item itemvalue="Application.ArrayQuiz01" />
+        <item itemvalue="Application.ArrayDelete" />
       </list>
     </recent_temporary>
   </component>
@@ -139,6 +192,7 @@
       <workItem from="1712277850289" duration="499000" />
       <workItem from="1712278358751" duration="771000" />
       <workItem from="1712279466221" duration="950000" />
+      <workItem from="1712534675475" duration="20476000" />
     </task>
     <task id="LOCAL-00001" summary="# test commit">
       <option name="closed" value="true" />
@@ -148,7 +202,23 @@
       <option name="project" value="LOCAL" />
       <updated>1712280279566</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="# day 1 commit&#10;1. variable&#10;2. data type&#10;3. type casting">
+      <option name="closed" value="true" />
+      <created>1712289623482</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712289623482</updated>
+    </task>
+    <task id="LOCAL-00003" summary="# day 1 commit&#10;1. variable&#10;2. data type&#10;3. type casting">
+      <option name="closed" value="true" />
+      <created>1712289664191</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712289664191</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,7 +238,34 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="# initial commit" />
     <MESSAGE value="# test commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="# test commit" />
+    <MESSAGE value="# day 1 commit&#10;1. variable&#10;2. data type&#10;3. type casting" />
+    <MESSAGE value="# day 2 commit&#10;1. TypeCasting&#10;2. stdIO, Scanner&#10;3. array" />
+    <option name="LAST_COMMIT_MESSAGE" value="# day 2 commit&#10;1. TypeCasting&#10;2. stdIO, Scanner&#10;3. array" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day02/ArrayCopy.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day02/ArrayDelete.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day02/ArraySearch.java</url>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day02/ArrayQuiz02.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

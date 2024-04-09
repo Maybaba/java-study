@@ -49,5 +49,34 @@ public class TypeCasting {
         float f1 = 3.24F;
         double f2 = 5.5;
         double v1 = f1 - f2;
+
+        int s = 10;
+        double o = 5;
+       int r2  =(int) (s * o);
+        System.out.println("r2 = " + r2);
+        
+        byte b1 = 100;
+        byte b2 = 50;
+//       byte r3  = b1 + b2; 같은 타입으로 더해도 에러가 난다. 
+
+        //int 이하의 사이즈 타입은 연산시 결과가 자동으로 int로 캐스팅 됨
+//        char b1 = 'A'; //65
+//        char b2 = 'C'; //67
+//        char r3 = b1 + b2; 에러남
+        int r3 = b1 + b2;
+        System.out.println(b1 + b2);
+        
+        char cc = 'A'; 
+        int plusNum = 3;
+        char r4 = (char) (cc + plusNum); //D를 얻고 싶음
+        System.out.println("r4 = " + r4);
+
+        int x = 10, y = 20;
+
+        System.out.println(x > 10 && (y / 0 == 10)); //false
+        // 0으로 나누면 안되고(에러남) &연산자가 하나이면 단축평가를 실행하지 않는다.
+        // &&는 단축평가를 실행한다. 그래서 에러가 나지 않는다.
+        System.out.println(x > 10 || y < 30); //true
+        
     }
 }
