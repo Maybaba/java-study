@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33d5ee65-a7bb-42e2-b395-7d4ace52d9c9" name="Changes" comment="# day 2 commit&#10;1. TypeCasting&#10;2. stdIO, Scanner&#10;3. array &#10;4. array push, pop quiz">
+    <list default="true" id="33d5ee65-a7bb-42e2-b395-7d4ace52d9c9" name="Changes" comment="# day 2 commit&#10;1. TypeCasting&#10;2. stdIO, Scanner&#10;3. array &#10;4. array push, pop quiz&#10;5. ArrayInsert">
+      <change afterPath="$PROJECT_DIR$/src/day03/Matrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day03/MethodBasic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day03/MethodQuiz.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day02/ArrayInsert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day02/ArrayInsert.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +39,9 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-11.0.22/Contents/Home/lib/src.zip!/java.base/java/lang/System.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -62,6 +67,9 @@
     "Application.ArraySearch.executor": "Run",
     "Application.DataType.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Matrix.executor": "Run",
+    "Application.MethodBasic.executor": "Run",
+    "Application.MethodQuiz.executor": "Run",
     "Application.ScannerPractice.executor": "Run",
     "Application.TypeCasting.executor": "Run",
     "Application.Variable.executor": "Run",
@@ -86,35 +94,9 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ArrayInsert">
+  <component name="RunManager" selected="Application.MethodQuiz">
     <configuration name="ArrayInsert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day02.ArrayInsert" />
-      <module name="java-study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayQuiz01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day02.ArrayQuiz01" />
-      <module name="java-study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayQuiz02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day02.ArrayQuiz02" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
@@ -139,12 +121,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArraySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day02.ArraySearch" />
+    <configuration name="Matrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day03.Matrix" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day02.*" />
+          <option name="PATTERN" value="day03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MethodBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day03.MethodBasic" />
+      <module name="java-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MethodQuiz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day03.MethodQuiz" />
+      <module name="java-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MethodQuiz" />
+        <item itemvalue="Application.MethodBasic" />
+        <item itemvalue="Application.Matrix" />
         <item itemvalue="Application.ArrayInsert" />
         <item itemvalue="Application.ArrayQuiz03" />
-        <item itemvalue="Application.ArraySearch" />
-        <item itemvalue="Application.ArrayQuiz02" />
-        <item itemvalue="Application.ArrayQuiz01" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +188,7 @@
       <workItem from="1712277850289" duration="499000" />
       <workItem from="1712278358751" duration="771000" />
       <workItem from="1712279466221" duration="950000" />
-      <workItem from="1712534675475" duration="21208000" />
+      <workItem from="1712534675475" duration="31175000" />
     </task>
     <task id="LOCAL-00001" summary="# test commit">
       <option name="closed" value="true" />
@@ -214,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712625437784</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="# day 2 commit&#10;1. TypeCasting&#10;2. stdIO, Scanner&#10;3. array &#10;4. array push, pop quiz&#10;5. ArrayInsert">
+      <option name="closed" value="true" />
+      <created>1712626435403</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712626435403</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,7 +253,8 @@
     <MESSAGE value="# day 1 commit&#10;1. variable&#10;2. data type&#10;3. type casting" />
     <MESSAGE value="# day 2 commit&#10;1. TypeCasting&#10;2. stdIO, Scanner&#10;3. array" />
     <MESSAGE value="# day 2 commit&#10;1. TypeCasting&#10;2. stdIO, Scanner&#10;3. array &#10;4. array push, pop quiz" />
-    <option name="LAST_COMMIT_MESSAGE" value="# day 2 commit&#10;1. TypeCasting&#10;2. stdIO, Scanner&#10;3. array &#10;4. array push, pop quiz" />
+    <MESSAGE value="# day 2 commit&#10;1. TypeCasting&#10;2. stdIO, Scanner&#10;3. array &#10;4. array push, pop quiz&#10;5. ArrayInsert" />
+    <option name="LAST_COMMIT_MESSAGE" value="# day 2 commit&#10;1. TypeCasting&#10;2. stdIO, Scanner&#10;3. array &#10;4. array push, pop quiz&#10;5. ArrayInsert" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -260,6 +277,34 @@
           <url>file://$PROJECT_DIR$/src/day02/ArrayQuiz02.java</url>
           <line>10</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day02/ArrayQuiz02.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day03/MethodQuiz.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/day02/ArrayInsert.java</url>
+          <line>5</line>
+          <properties class="day02.ArrayInsert" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/day03/MethodQuiz.java</url>
+          <line>49</line>
+          <properties class="day03.MethodQuiz" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
