@@ -11,14 +11,14 @@ public class DataType {
         // 0 1111111 =>  64 + 32 + 16 + 8 + 4 + 2 + 1 = 127
         byte a = 127;       //1byte 영상스트리밍할 때 끊기지 않기 위해 사용
         short b = 32767;    //2byte 음수도 표현해서 문자형 char 의 범위의 절반 정도임
-        int c = 2147483647;  //4byte
+        int c = 2147483647;  //4byte , 정수
         long d = 2147483647234224424L; //8byte : 900경
         // 숫자가 저장되는 공간의 사이즈를 늘리기 -> L
         
         System.out.println(d);
         
-        float e = 3.143434324323424F;  // 실수 4byte
-        double f = 3.142342343223423424244;  // 실수 8byte
+        float e = 3.143434324323424F;  // 4byte 실수
+        double f = 3.142342343223423424244;  // 8byte 실수
         double g = 100;
         System.out.println("e = " + e);
         System.out.println("f = " + f);

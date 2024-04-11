@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33d5ee65-a7bb-42e2-b395-7d4ace52d9c9" name="Changes" comment="# day 2 commit&#10;1. TypeCasting&#10;2. stdIO, Scanner&#10;3. array &#10;4. array push, pop quiz&#10;5. ArrayInsert">
-      <change afterPath="$PROJECT_DIR$/src/day03/Matrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day03/MethodBasic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day03/MethodQuiz.java" afterDir="false" />
+    <list default="true" id="33d5ee65-a7bb-42e2-b395-7d4ace52d9c9" name="Changes" comment="# day 2 ~ 3 commit&#10;1. TypeCasting&#10;2. stdIO, Scanner&#10;3. array &#10;4. array push, pop quiz&#10;5. ArrayInsert&#10;6. Method basic">
+      <change afterPath="$PROJECT_DIR$/src/Day04/Dancer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day04/DancerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day04/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day04/DogMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day04/FieldAndLocak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day04/FieldName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day04/StringCompare.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day01/DataType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01/DataType.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,12 +70,16 @@
     "Application.ArrayQuiz02.executor": "Run",
     "Application.ArrayQuiz03.executor": "Run",
     "Application.ArraySearch.executor": "Run",
+    "Application.DancerMain.executor": "Run",
     "Application.DataType.executor": "Run",
+    "Application.DogMain.executor": "Run",
+    "Application.FieldName.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Matrix.executor": "Run",
     "Application.MethodBasic.executor": "Run",
     "Application.MethodQuiz.executor": "Run",
     "Application.ScannerPractice.executor": "Run",
+    "Application.StringCompare.executor": "Run",
     "Application.TypeCasting.executor": "Run",
     "Application.Variable.executor": "Run",
     "Application.Variavble.executor": "Run",
@@ -94,13 +103,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MethodQuiz">
-    <configuration name="ArrayInsert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day02.ArrayInsert" />
+  <component name="RunManager" selected="Application.StringCompare">
+    <configuration name="DancerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day04.DancerMain" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day02.*" />
+          <option name="PATTERN" value="Day04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayQuiz03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day02.ArrayQuiz03" />
+    <configuration name="DogMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day04.DogMain" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day02.*" />
+          <option name="PATTERN" value="Day04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,25 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Matrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day03.Matrix" />
+    <configuration name="FieldName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day04.FieldName" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MethodBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day03.MethodBasic" />
-      <module name="java-study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day03.*" />
+          <option name="PATTERN" value="Day04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,13 +156,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringCompare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day04.StringCompare" />
+      <module name="java-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringCompare" />
+        <item itemvalue="Application.FieldName" />
+        <item itemvalue="Application.DogMain" />
+        <item itemvalue="Application.DancerMain" />
         <item itemvalue="Application.MethodQuiz" />
-        <item itemvalue="Application.MethodBasic" />
-        <item itemvalue="Application.Matrix" />
-        <item itemvalue="Application.ArrayInsert" />
-        <item itemvalue="Application.ArrayQuiz03" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +197,8 @@
       <workItem from="1712277850289" duration="499000" />
       <workItem from="1712278358751" duration="771000" />
       <workItem from="1712279466221" duration="950000" />
-      <workItem from="1712534675475" duration="31175000" />
+      <workItem from="1712534675475" duration="31815000" />
+      <workItem from="1712800774761" duration="5362000" />
     </task>
     <task id="LOCAL-00001" summary="# test commit">
       <option name="closed" value="true" />
@@ -230,7 +240,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712626435403</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="# day 2 ~ 3 commit&#10;1. TypeCasting&#10;2. stdIO, Scanner&#10;3. array &#10;4. array push, pop quiz&#10;5. ArrayInsert&#10;6. Method basic">
+      <option name="closed" value="true" />
+      <created>1712648398908</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712648398908</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,7 +272,8 @@
     <MESSAGE value="# day 2 commit&#10;1. TypeCasting&#10;2. stdIO, Scanner&#10;3. array" />
     <MESSAGE value="# day 2 commit&#10;1. TypeCasting&#10;2. stdIO, Scanner&#10;3. array &#10;4. array push, pop quiz" />
     <MESSAGE value="# day 2 commit&#10;1. TypeCasting&#10;2. stdIO, Scanner&#10;3. array &#10;4. array push, pop quiz&#10;5. ArrayInsert" />
-    <option name="LAST_COMMIT_MESSAGE" value="# day 2 commit&#10;1. TypeCasting&#10;2. stdIO, Scanner&#10;3. array &#10;4. array push, pop quiz&#10;5. ArrayInsert" />
+    <MESSAGE value="# day 2 ~ 3 commit&#10;1. TypeCasting&#10;2. stdIO, Scanner&#10;3. array &#10;4. array push, pop quiz&#10;5. ArrayInsert&#10;6. Method basic" />
+    <option name="LAST_COMMIT_MESSAGE" value="# day 2 ~ 3 commit&#10;1. TypeCasting&#10;2. stdIO, Scanner&#10;3. array &#10;4. array push, pop quiz&#10;5. ArrayInsert&#10;6. Method basic" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -287,6 +306,16 @@
           <url>file://$PROJECT_DIR$/src/day03/MethodQuiz.java</url>
           <line>4</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Day04/FieldName.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Day04/FieldName.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/day02/ArrayInsert.java</url>
