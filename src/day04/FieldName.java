@@ -1,4 +1,4 @@
-package Day04;
+package day04;
 
 public class FieldName {
     public static void main(String[] args) {

@@ -4,16 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33d5ee65-a7bb-42e2-b395-7d4ace52d9c9" name="Changes" comment="# day 2 ~ 3 commit&#10;1. TypeCasting&#10;2. stdIO, Scanner&#10;3. array &#10;4. array push, pop quiz&#10;5. ArrayInsert&#10;6. Method basic">
-      <change afterPath="$PROJECT_DIR$/src/Day04/Dancer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day04/DancerMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day04/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day04/DogMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day04/FieldAndLocak.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day04/FieldName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day04/StringCompare.java" afterDir="false" />
+    <list default="true" id="33d5ee65-a7bb-42e2-b395-7d4ace52d9c9" name="Changes" comment="# day 4 commit&#10;1. 객체지향 프로그래밍 기본">
+      <change afterPath="$PROJECT_DIR$/src/day04/Painter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day04/painterMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day05/ListMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day05/PackageMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day05/StringList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day05/fruit/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day05/juice/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day05/juice/Banana.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day05/juice/Peach.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day01/DataType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01/DataType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day04/Dancer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day04/Dancer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day04/DancerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day04/DancerMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day04/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day04/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day04/DogMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day04/DogMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day04/FieldAndLocak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day04/FieldAndLocak.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day04/FieldName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day04/FieldName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day04/StringCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day04/StringCompare.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,10 +82,12 @@
     "Application.DataType.executor": "Run",
     "Application.DogMain.executor": "Run",
     "Application.FieldName.executor": "Run",
+    "Application.ListMain.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Matrix.executor": "Run",
     "Application.MethodBasic.executor": "Run",
     "Application.MethodQuiz.executor": "Run",
+    "Application.PackageMain.executor": "Run",
     "Application.ScannerPractice.executor": "Run",
     "Application.StringCompare.executor": "Run",
     "Application.TypeCasting.executor": "Run",
@@ -99,30 +109,17 @@
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "settings.editor.selected.configurable": "preferences.editor",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.StringCompare">
-    <configuration name="DancerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day04.DancerMain" />
-      <module name="java-study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.PackageMain">
     <configuration name="DogMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day04.DogMain" />
+      <option name="MAIN_CLASS_NAME" value="day04.DogMain" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day04.*" />
+          <option name="PATTERN" value="day05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +128,11 @@
       </method>
     </configuration>
     <configuration name="FieldName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day04.FieldName" />
+      <option name="MAIN_CLASS_NAME" value="day04.FieldName" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day04.*" />
+          <option name="PATTERN" value="day05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,12 +140,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodQuiz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day03.MethodQuiz" />
+    <configuration name="ListMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day05.ListMain" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day03.*" />
+          <option name="PATTERN" value="day05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PackageMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day05.PackageMain" />
+      <module name="java-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +167,11 @@
       </method>
     </configuration>
     <configuration name="StringCompare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day04.StringCompare" />
+      <option name="MAIN_CLASS_NAME" value="day04.StringCompare" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day04.*" />
+          <option name="PATTERN" value="day05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PackageMain" />
+        <item itemvalue="Application.ListMain" />
         <item itemvalue="Application.StringCompare" />
         <item itemvalue="Application.FieldName" />
         <item itemvalue="Application.DogMain" />
-        <item itemvalue="Application.DancerMain" />
-        <item itemvalue="Application.MethodQuiz" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +208,10 @@
       <workItem from="1712278358751" duration="771000" />
       <workItem from="1712279466221" duration="950000" />
       <workItem from="1712534675475" duration="31815000" />
-      <workItem from="1712800774761" duration="5362000" />
+      <workItem from="1712800774761" duration="9791000" />
+      <workItem from="1712860015132" duration="69000" />
+      <workItem from="1712860105156" duration="27000" />
+      <workItem from="1712860192560" duration="7813000" />
     </task>
     <task id="LOCAL-00001" summary="# test commit">
       <option name="closed" value="true" />
@@ -248,7 +261,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712648398908</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="# day 4 commit&#10;1. 객체지향 프로그래밍 기본">
+      <option name="closed" value="true" />
+      <created>1712806493427</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1712806493427</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,7 +294,8 @@
     <MESSAGE value="# day 2 commit&#10;1. TypeCasting&#10;2. stdIO, Scanner&#10;3. array &#10;4. array push, pop quiz" />
     <MESSAGE value="# day 2 commit&#10;1. TypeCasting&#10;2. stdIO, Scanner&#10;3. array &#10;4. array push, pop quiz&#10;5. ArrayInsert" />
     <MESSAGE value="# day 2 ~ 3 commit&#10;1. TypeCasting&#10;2. stdIO, Scanner&#10;3. array &#10;4. array push, pop quiz&#10;5. ArrayInsert&#10;6. Method basic" />
-    <option name="LAST_COMMIT_MESSAGE" value="# day 2 ~ 3 commit&#10;1. TypeCasting&#10;2. stdIO, Scanner&#10;3. array &#10;4. array push, pop quiz&#10;5. ArrayInsert&#10;6. Method basic" />
+    <MESSAGE value="# day 4 commit&#10;1. 객체지향 프로그래밍 기본" />
+    <option name="LAST_COMMIT_MESSAGE" value="# day 4 commit&#10;1. 객체지향 프로그래밍 기본" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -308,14 +330,24 @@
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Day04/FieldName.java</url>
+          <url>file://$PROJECT_DIR$/src/day04/FieldName.java</url>
           <line>7</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Day04/FieldName.java</url>
+          <url>file://$PROJECT_DIR$/src/day04/FieldName.java</url>
           <line>2</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day03/MethodQuiz.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day05/ListMain.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/day02/ArrayInsert.java</url>
@@ -334,6 +366,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/day05/ListMain.java</url>
+          <line>5</line>
+          <properties class="day05.ListMain" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

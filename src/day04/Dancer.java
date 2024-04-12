@@ -1,4 +1,4 @@
-package Day04;
+package day04;
 
 // class: 객체를 찍어내는 설계도
 // 라이브러리 클래스: 설계도의 역할만 함, 실행은 안함 - main이 없음

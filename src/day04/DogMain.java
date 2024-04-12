@@ -1,4 +1,4 @@
-package Day04;
+package day04;
 
 public class DogMain {
     //class 바로 밑에서 만듦 : 지역변수 아님

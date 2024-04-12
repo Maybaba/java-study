@@ -1,11 +1,10 @@
-package Day04;
+package day04;
 
 import java.util.Scanner;
 
 public class StringCompare {
     public static void main(String[] args) {
         Scanner scscsc = new Scanner(System.in);
-        
         
         String inputName = scscsc.nextLine(); //string 리턴
         String myName = new String("홍길동");
@@ -33,8 +32,5 @@ public class StringCompare {
         Dog e = new Dog();
         Dog f = new Dog();
         System.out.println(e == f);
-
-        
-        
     }
 }

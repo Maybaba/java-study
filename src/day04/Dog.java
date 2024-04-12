@@ -1,4 +1,4 @@
-package Day04;
+package day04;
 
 //설계도 !
 public class Dog {
@@ -8,7 +8,7 @@ public class Dog {
     int age;
     boolean injection;
 
-    // method : 객체의 기능
+    // method : 객체의 기능-
     void petInfo() {
         System.out.printf("우리집 강아지는 %s 에요~ %d 살이에요 \n", dogName, age);
         if (injection) {
@@ -22,6 +22,7 @@ public class Dog {
         injection = true; //기존의 field를 사용하게 되면 함수내에서 사용하더라도 field임!
         //함수안에서 만들면 지역변수임!
     }
+    //생성자
     Dog() {
         System.out.println("1번 생성자 호출");
     }
@@ -32,5 +33,4 @@ public class Dog {
     }
 }
 
-//생성자
 

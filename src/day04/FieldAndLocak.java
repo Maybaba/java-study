@@ -1,4 +1,4 @@
-package Day04;
+package day04;
 
 public class FieldAndLocak {
     //값을 넣지 않아도 에러가 뜨지 않는 이유 :
