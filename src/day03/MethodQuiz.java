@@ -30,7 +30,7 @@ public class MethodQuiz {
 
     static int indexOf(String foodName) { //새로 받는 param은 타입 정의
         //foodName이 어느 index에 있는지 확인하기
-        int index = -1; //기본값 : falsy
+        int index = -1; //default : falsy
         for (int i = 0; i <foods.length ; i++) {
             if(foodName.equals(foods[i])) {
                 index = i;
@@ -41,10 +41,30 @@ public class MethodQuiz {
         //sout이 그 값을 참조할 수 있다.
     }
 
-    static void remove(String foodName) {
-        //새로운 배열을 만든 뒤
+    static void remove(String deleteFood) {
+        //입력받은 값이 배열에 있는지 확인하기
+        int index = indexOf(deleteFood);
+        if (index == -1) return;
+        // duplicate the array that delete inputted parameter
+        for (int i = index; i < foods.length -1; i++) {
+            foods[i] = foods[i + 1];
+        }
+        // create new array 'temporary' what I want to input deleted array using above foods array
+        String [] temp = new String[foods.length - 1];
+        for (int i = 0; i < temp.length; i++) {
+            temp[i] = foods[i];
+        }
+        foods = temp;
+        temp = null;
+    }
 
-        //새로운 배열에서 삭제한다.
+    static boolean include (String foodName) {
+        //if foods include inputted foodName, return true
+        int index = indexOf(foodName);
+        if (index <= -1) {
+            return false;
+        }
+        return true;
     }
 
     public static void main(String[] args) {
@@ -60,15 +80,15 @@ public class MethodQuiz {
         int index2 = indexOf("라면땅");
         System.out.println("index2 = " + index2);
 //
-        remove("치킨");
+        remove("김치찌개");
         printFoods();
 //
 //
-//        boolean flag1 = include("파스타");
-//        System.out.println("flag1 = " + flag1);
+        boolean flag1 = include("떡볶이");
+        System.out.println("flag1 = " + flag1);
 //
-//        boolean flag2 = include("떡라면");
-//        System.out.println("flag2 = " + flag2);
+        boolean flag2 = include("떡라면");
+        System.out.println("flag2 = " + flag2);
 //
 //        insert(3, "파인애플");
 //
