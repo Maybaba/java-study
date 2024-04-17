@@ -76,17 +76,16 @@ public class MethodQuiz {
 
         int index = indexOf("파스타");
         System.out.println("index = " + index);
-//
+
         int index2 = indexOf("라면땅");
         System.out.println("index2 = " + index2);
-//
+
         remove("김치찌개");
         printFoods();
-//
-//
+
         boolean flag1 = include("떡볶이");
         System.out.println("flag1 = " + flag1);
-//
+
         boolean flag2 = include("떡라면");
         System.out.println("flag2 = " + flag2);
 //

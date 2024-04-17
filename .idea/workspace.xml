@@ -4,15 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33d5ee65-a7bb-42e2-b395-7d4ace52d9c9" name="Changes" comment="# day 6 commit&#10;1. 회원관리 시스템 Member, Test class 1명 관리&#10;2. 회원관리 분기 나누기&#10;3. 기능 분산해서 코드 짜기">
-      <change afterPath="$PROJECT_DIR$/src/day06/member/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day06/member/MemberController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day06/member/MemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day06/member/MemberView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day06/member/RestoreMembers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/SimpleInput.java" afterDir="false" />
+    <list default="true" id="33d5ee65-a7bb-42e2-b395-7d4ace52d9c9" name="Changes" comment="# day 7 commit">
+      <change afterPath="$PROJECT_DIR$/src/day06/MemberList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day06/member/MemberList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day07/encap/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day07/encap/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day07/encap/practice/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day07/encap/practice/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day07/encap/practice/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day07/encap/practice/PasswordManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day07/encap/practice/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day07/encap/practice/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day07/encap/practice/연습문제.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day07/inherit/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day07/inherit/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day07/inherit/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day07/inherit/practice/ElectronicProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day07/inherit/practice/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day07/inherit/practice/SmartPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day07/inherit/practice/Television.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day07/inherit/practice/연습문제.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day07/modi/pac1/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day07/modi/pac1/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day07/modi/pac2/C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day07/player/Hunter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day07/player/Mage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day07/player/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day07/player/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day07/player/SuperWarrior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day07/player/Warrior.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day06/member/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/member/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day03/MethodQuiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day03/MethodQuiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day06/member/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/member/MemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day06/member/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/member/MemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day06/member/MemberView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/member/MemberView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day06/member/RestoreMembers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/member/RestoreMembers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day06/member/요구사항.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/member/요구사항.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,67 +87,75 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ArrayBasic.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayCopy.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayDelete.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayInsert.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayPop.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayPush.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayQuiz01.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayQuiz02.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayQuiz03.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArraySearch.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DancerMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DataType.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DogMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FieldName.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ListMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Matrix.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MethodBasic.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MethodQuiz.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PackageMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ScannerPractice.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringCompare.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TypeCasting.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Variable.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Variavble.executor&quot;: &quot;Run&quot;,
-    &quot;Application.day06.member.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.stdIO.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/sin-yunjong/Desktop/academy/java-study&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/sin-yunjong/Desktop/academy/java-study/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ArrayBasic.executor": "Run",
+    "Application.ArrayCopy.executor": "Run",
+    "Application.ArrayDelete.executor": "Run",
+    "Application.ArrayInsert.executor": "Run",
+    "Application.ArrayPop.executor": "Run",
+    "Application.ArrayPush.executor": "Run",
+    "Application.ArrayQuiz01.executor": "Run",
+    "Application.ArrayQuiz02.executor": "Run",
+    "Application.ArrayQuiz03.executor": "Run",
+    "Application.ArraySearch.executor": "Run",
+    "Application.DancerMain.executor": "Run",
+    "Application.DataType.executor": "Run",
+    "Application.DogMain.executor": "Run",
+    "Application.FieldName.executor": "Run",
+    "Application.ListMain.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Matrix.executor": "Run",
+    "Application.MethodBasic.executor": "Run",
+    "Application.MethodQuiz.executor": "Run",
+    "Application.PackageMain.executor": "Run",
+    "Application.ScannerPractice.executor": "Run",
+    "Application.StringCompare.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.TypeCasting.executor": "Run",
+    "Application.Variable.executor": "Run",
+    "Application.Variavble.executor": "Run",
+    "Application.day06.member.Main.executor": "Run",
+    "Application.day07.encap.Main.executor": "Run",
+    "Application.day07.encap.practice.Main.executor": "Run",
+    "Application.day07.inherit.Main.executor": "Run",
+    "Application.day07.inherit.practice.Main.executor": "Run",
+    "Application.stdIO.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ToolWindowGit.ShowToolbar": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/sin-yunjong/Desktop/academy/java-study",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/sin-yunjong/Desktop/academy/java-study/src/Main.java",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="day06.member" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/day07/encap/practice" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.day06.member.Main">
+  <component name="RunManager" selected="Application.day07.inherit.practice.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day05.player.Main" />
+      <option name="MAIN_CLASS_NAME" value="day07.player.Main" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day05.player.*" />
+          <option name="PATTERN" value="day07.player.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +163,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodQuiz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day03.MethodQuiz" />
+    <configuration name="day07.encap.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day07.encap.Main" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day03.*" />
+          <option name="PATTERN" value="day07.encap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,12 +176,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PackageMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day05.PackageMain" />
+    <configuration name="day07.encap.practice.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day07.encap.practice.Main" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day05.*" />
+          <option name="PATTERN" value="day07.encap.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,12 +189,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day06.member.Test" />
+    <configuration name="day07.inherit.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day07.inherit.Main" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day06.member.*" />
+          <option name="PATTERN" value="day07.inherit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,12 +202,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day06.member.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day06.member.Main" />
+    <configuration name="day07.inherit.practice.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day07.inherit.practice.Main" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day06.member.*" />
+          <option name="PATTERN" value="day07.inherit.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.day06.member.Main" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.MethodQuiz" />
+        <item itemvalue="Application.day07.inherit.practice.Main" />
+        <item itemvalue="Application.day07.inherit.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.PackageMain" />
+        <item itemvalue="Application.day07.encap.practice.Main" />
+        <item itemvalue="Application.day07.encap.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +250,9 @@
       <workItem from="1712860192560" duration="12004000" />
       <workItem from="1713217947735" duration="9080000" />
       <workItem from="1713230184064" duration="18571000" />
-      <workItem from="1713252173820" duration="9064000" />
+      <workItem from="1713252173820" duration="17487000" />
+      <workItem from="1713318048241" duration="19782000" />
+      <workItem from="1713339039974" duration="3518000" />
     </task>
     <task id="LOCAL-00001" summary="# test commit">
       <option name="closed" value="true" />
@@ -297,7 +334,23 @@
       <option name="project" value="LOCAL" />
       <updated>1713229095115</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="# day 6 commit&#10;1. 회원관리 시스템 Member, Test class 1명 관리&#10;2. 회원관리 분기 나누기&#10;3. 삭제회원목록 복구중">
+      <option name="closed" value="true" />
+      <created>1713308506858</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1713308506858</updated>
+    </task>
+    <task id="LOCAL-00012" summary="# day 6 commit&#10;1. 회원관리 시스템 Member, Test class 1명 관리&#10;2. 회원관리 분기 나누기&#10;3. 삭제회원목록 복구중">
+      <option name="closed" value="true" />
+      <created>1713308542856</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1713308542856</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,7 +378,8 @@
     <MESSAGE value="# day 4 commit&#10;1. 객체지향 프로그래밍 기본" />
     <MESSAGE value="# day 5 commit&#10;1. 객체지향 프로그래밍 생성자" />
     <MESSAGE value="# day 6 commit&#10;1. 회원관리 시스템 Member, Test class 1명 관리" />
-    <option name="LAST_COMMIT_MESSAGE" value="# day 6 commit&#10;1. 회원관리 시스템 Member, Test class 1명 관리" />
+    <MESSAGE value="# day 6 commit&#10;1. 회원관리 시스템 Member, Test class 1명 관리&#10;2. 회원관리 분기 나누기&#10;3. 삭제회원목록 복구중" />
+    <option name="LAST_COMMIT_MESSAGE" value="# day 6 commit&#10;1. 회원관리 시스템 Member, Test class 1명 관리&#10;2. 회원관리 분기 나누기&#10;3. 삭제회원목록 복구중" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -378,6 +432,26 @@
           <url>file://$PROJECT_DIR$/src/day05/ListMain.java</url>
           <line>2</line>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day06/member/MemberView.java</url>
+          <line>164</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day07/encap/practice/Main.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day07/encap/practice/Main.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day07/inherit/practice/Main.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/day02/ArrayInsert.java</url>

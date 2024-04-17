@@ -36,7 +36,7 @@ public class MemberController {
                    mv.deleteMember();
                    break;
                case "6": //회원 객체를 복구하는 코드
-                   mv.recoverMember();
+                   mv.removeMember();
                    break;
                case "7":
                    boolean flag = mv.exitProgram();

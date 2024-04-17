@@ -30,7 +30,7 @@ public class MemberView {
         //Main에서 가져옴
         String email = null;
         while (true) {
-            System.out.println("**새로운 회원정보를 입력합니다**");
+            System.out.println("** 새로운 회원정보를 입력합니다 **");
             email = si.input("- 이메일: "); //while 밖에서 써야 해서 string 선언은 스코프 밖으로 뺀다.
             if(!mr.isDuplicateEmail(email)) {
                 break;
@@ -46,7 +46,7 @@ public class MemberView {
         //입력데이터를 기반으로 한 명의 회원 객체를 생성 Main에서 가져옴
         Member newMember = new Member(email, password, name, gender, age);
 
-        //위임 - 관심사의 분리 (정보의 위임? 후 ? 관여하지 않는다? )
+        //위임 - 관심사의 분리 (정보의 위임 후 관여하지 않는다 )
         mr.addNewMember(newMember);
 
         //입력완료
@@ -159,24 +159,24 @@ public class MemberView {
             } else {
                 System.out.println("\n비밀번호거 일치하지 않습니다. 삭제를 취소합니다. ");
             }
-//            Member temp []; 이렇게 못하나 ?.?
-//            temp = null;
-
         } else {
             System.out.println("해당 회원은 존재하지 않습니다. \n");
         }
     }
 
-    //restore 배열을 갖고와서 복구하는 코드
-    public void recoverMember() {
-        //복구할 멤버의 이메일 입력
-        String inputEmail = si.input("복구할 멤버의 이메일 입력 \n >>");
-
-        //복구할 멤버 restore에서 대조하기
-//        for (RestoreMembers restoreMembers : rm.restoreMemberList) {
-//
-//        }
-
+    // 회원 복구에 관련한 입출력 관리  : 선생님 레포 참고
+    /*   public void restoreMember() {
 
     }
+    */
+
+    //restore 배열을 가져와서 복구
+    public void removeMember() {
+
+    }
+
+
+
+
+
 }

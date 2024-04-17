@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class RestoreMembers {
     //filed
-    static RestoreMembers[] restoreMemberList; // 휴지통 개념 (정렬같은건 후순위)
+    static RestoreMembers[] restoreMemberList; // 휴지통 개념 (복구 시 재정렬 : 후순위)
 
     //restoreList 배열 안의 new restoreMembers 객체
     RestoreMembers() {

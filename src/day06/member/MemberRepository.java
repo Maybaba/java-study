@@ -4,24 +4,14 @@ package day06.member;
 public class MemberRepository {
     //filed
     static  Member[] members; // members 배열 -> MemberList, StringList를 만들었던것처럼 만들기
-    RestoreMembers rm;
+    //배열과 함수를 묶기 위해 필드 재정의, 선생님 레포 참고
+    //MembersList members;
+    //MembersList restorelist;
 
     //constructor
     MemberRepository() { //members 배열 안의 new member 객체
-        this.members = new Member[0]; //start from empty array
-
-//        members[1] = new Member("ad5@naver.com", "12₩2", "바바", "여성", 45);
-//        members[0] = new Member("adf@naver.com", "1234", "바비", "여성", 45);
-//        members[2] = new Member("a2f@naver.com", "12ㅂㅂ", "므므", "여성", 45);
+        this.members = new Member[0]; //start from empty array // new Member() : create new Member object
     }
-    //method
-    //print all members info --- Memberview 로 이동
-//    void showMembers() {
-//        System.out.printf("====================현재 회원 목록 총 %d명========\n", members.length);
-//        for (Member m : members) {
-//            System.out.println(m);
-//        }
-//    }
 
     /**
      * 생성된 회원정보를 회원 배열 끝에 추가하는 기능
@@ -31,7 +21,7 @@ public class MemberRepository {
 
         //배열에 데이터 추가하는 로직
         Member[] temp = new Member[members.length + 1];
-        for (int i = 0; i < members.length; i++) { //첨언 ~
+        for (int i = 0; i < members.length; i++) {
             temp[i] = members[i];
         }
         temp[temp.length -1] = newMember;
@@ -39,7 +29,6 @@ public class MemberRepository {
 
         return newMember;
     }
-
     /**
      * 이메일 중복 확인 - 배열 탐색 알고리즘
      * @param targetEmail - 검사할 사용자의 입력 이메일 값
@@ -58,7 +47,6 @@ public class MemberRepository {
 //        }
 //        return false;
     }
-
     /**
      * 이메일을 통해 회원 객체를 가져오는 메서드
      * @param inputEmail - 사용자가 입력한 이메일 값
@@ -84,7 +72,7 @@ public class MemberRepository {
     //배열에서 회원정보 삭제
     public void removeMember(String inputEmail) {
 
-        //삭제 알고리즘
+        //삭제 알고리즘 : 삭제된 건 리턴해준다.
         int index = findIndex(inputEmail);
         if(index == -1) return;
 
@@ -98,12 +86,4 @@ public class MemberRepository {
         }
         members = temp;
     }
-
-
-//    //인덱스 넘버의 email string 이 같은지에 따른
-//    void isEmailExist(String targetEmail) {
-//        if (isDuplicateEmail(targetEmail)) {
-//            return
-//        }
-//        System.out.println("입력하신 회원 정보가 없습니다.");
 }
