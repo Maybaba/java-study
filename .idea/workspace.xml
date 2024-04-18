@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33d5ee65-a7bb-42e2-b395-7d4ace52d9c9" name="Changes" comment="# day commit&#10;1. static&#10;2. static practice&#10;3. final&#10;4. final practice">
-      <change afterPath="$PROJECT_DIR$/src/day06/member/MemberConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/enum_/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/enum_/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/enum_/PizzaStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/enum_/practice/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/enum_/practice/TeamMember.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/enum_/practice/TeamRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/enum_/practice/연습문제.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day06/member/MemberView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/member/MemberView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day08/final_/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day08/final_/Parent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day08/final_/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day08/final_/practice/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day08/final_/practice/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day08/final_/practice/WeatherAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day08/final_/practice/WeatherAnalyzer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day08/final_/practice/WeatherConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day08/final_/practice/WeatherConstants.java" afterDir="false" />
-    </list>
+    <list default="true" id="33d5ee65-a7bb-42e2-b395-7d4ace52d9c9" name="Changes" comment="# day commit&#10;1. static&#10;2. static practice&#10;3. final&#10;4. final practice&#10;5. enum practice ing!" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -245,7 +228,7 @@
       <workItem from="1713318048241" duration="19782000" />
       <workItem from="1713339039974" duration="11303000" />
       <workItem from="1713405025619" duration="8687000" />
-      <workItem from="1713417429660" duration="12753000" />
+      <workItem from="1713417429660" duration="12876000" />
     </task>
     <task id="LOCAL-00001" summary="# test commit">
       <option name="closed" value="true" />
@@ -383,7 +366,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713422284757</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="# day commit&#10;1. static&#10;2. static practice&#10;3. final&#10;4. final practice&#10;5. enum practice ing!">
+      <option name="closed" value="true" />
+      <created>1713433317248</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1713433317248</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -416,7 +407,8 @@
     <MESSAGE value="# day commit&#10;# static" />
     <MESSAGE value="# day commit&#10;1. static&#10;2. static practice" />
     <MESSAGE value="# day commit&#10;1. static&#10;2. static practice&#10;3. final&#10;4. final practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="# day commit&#10;1. static&#10;2. static practice&#10;3. final&#10;4. final practice" />
+    <MESSAGE value="# day commit&#10;1. static&#10;2. static practice&#10;3. final&#10;4. final practice&#10;5. enum practice ing!" />
+    <option name="LAST_COMMIT_MESSAGE" value="# day commit&#10;1. static&#10;2. static practice&#10;3. final&#10;4. final practice&#10;5. enum practice ing!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
