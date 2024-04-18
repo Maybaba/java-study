@@ -4,42 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33d5ee65-a7bb-42e2-b395-7d4ace52d9c9" name="Changes" comment="# day 7 commit">
-      <change afterPath="$PROJECT_DIR$/src/day06/MemberList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day06/member/MemberList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/encap/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/encap/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/encap/practice/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/encap/practice/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/encap/practice/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/encap/practice/PasswordManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/encap/practice/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/encap/practice/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/encap/practice/연습문제.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/inherit/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/inherit/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/inherit/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/inherit/practice/ElectronicProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/inherit/practice/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/inherit/practice/SmartPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/inherit/practice/Television.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/inherit/practice/연습문제.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/modi/pac1/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/modi/pac1/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/modi/pac2/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/player/Hunter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/player/Mage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/player/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/player/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/player/SuperWarrior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/player/Warrior.java" afterDir="false" />
+    <list default="true" id="33d5ee65-a7bb-42e2-b395-7d4ace52d9c9" name="Changes" comment="# day 7 commit&#10;# inherit">
+      <change afterPath="$PROJECT_DIR$/src/day07/player/HighMage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/cirtfc/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/cirtfc/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/cirtfc/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/cirtfc/Recursive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/practice/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/practice/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/practice/연습문제.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/practice2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/practice2/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/practice2/연습문제2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/singleton/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/singleton/MyPet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/static_/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/static_/Count.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/static_/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/static_/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/super_/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/super_/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/super_/Parent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day03/MethodQuiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day03/MethodQuiz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day06/member/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/member/MemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day06/member/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/member/MemberRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day06/member/MemberView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/member/MemberView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day06/member/RestoreMembers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/member/RestoreMembers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day06/member/요구사항.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/member/요구사항.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day04/StringCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day04/StringCompare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day07/player/Hunter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/player/Hunter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day07/player/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/player/Mage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day07/player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/player/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day07/player/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/player/Warrior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/SimpleInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/SimpleInput.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,6 +101,7 @@
     "Application.MethodBasic.executor": "Run",
     "Application.MethodQuiz.executor": "Run",
     "Application.PackageMain.executor": "Run",
+    "Application.Recursive.executor": "Run",
     "Application.ScannerPractice.executor": "Run",
     "Application.StringCompare.executor": "Run",
     "Application.Test.executor": "Run",
@@ -120,6 +113,10 @@
     "Application.day07.encap.practice.Main.executor": "Run",
     "Application.day07.inherit.Main.executor": "Run",
     "Application.day07.inherit.practice.Main.executor": "Run",
+    "Application.day08.cirtfc.Main.executor": "Run",
+    "Application.day08.practice.Main.executor": "Run",
+    "Application.day08.singleton.Main.executor": "Run",
+    "Application.day08.super_.Main.executor": "Run",
     "Application.stdIO.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -149,13 +146,13 @@
       <recent name="$PROJECT_DIR$/src/day07/encap/practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.day07.inherit.practice.Main">
+  <component name="RunManager" selected="Application.day08.practice.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day07.player.Main" />
+      <option name="MAIN_CLASS_NAME" value="day08.static_.Main" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day07.player.*" />
+          <option name="PATTERN" value="day08.static_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,12 +160,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day07.encap.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day07.encap.Main" />
+    <configuration name="Recursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day08.cirtfc.Recursive" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day07.encap.*" />
+          <option name="PATTERN" value="day08.cirtfc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,12 +173,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day07.encap.practice.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day07.encap.practice.Main" />
+    <configuration name="day08.cirtfc.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day08.cirtfc.Main" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day07.encap.practice.*" />
+          <option name="PATTERN" value="day08.cirtfc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,12 +186,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day07.inherit.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day07.inherit.Main" />
+    <configuration name="day08.practice.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day08.practice.Main" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day07.inherit.*" />
+          <option name="PATTERN" value="day08.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,12 +199,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day07.inherit.practice.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day07.inherit.practice.Main" />
+    <configuration name="day08.singleton.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day08.singleton.Main" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day07.inherit.practice.*" />
+          <option name="PATTERN" value="day08.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.day07.inherit.practice.Main" />
-        <item itemvalue="Application.day07.inherit.Main" />
+        <item itemvalue="Application.day08.practice.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.day07.encap.practice.Main" />
-        <item itemvalue="Application.day07.encap.Main" />
+        <item itemvalue="Application.day08.singleton.Main" />
+        <item itemvalue="Application.day08.cirtfc.Main" />
+        <item itemvalue="Application.Recursive" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +249,8 @@
       <workItem from="1713230184064" duration="18571000" />
       <workItem from="1713252173820" duration="17487000" />
       <workItem from="1713318048241" duration="19782000" />
-      <workItem from="1713339039974" duration="3518000" />
+      <workItem from="1713339039974" duration="11303000" />
+      <workItem from="1713405025619" duration="8399000" />
     </task>
     <task id="LOCAL-00001" summary="# test commit">
       <option name="closed" value="true" />
@@ -350,7 +348,23 @@
       <option name="project" value="LOCAL" />
       <updated>1713308542856</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="# day 7 commit&#10;# inherit">
+      <option name="closed" value="true" />
+      <created>1713343104144</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1713343104144</updated>
+    </task>
+    <task id="LOCAL-00014" summary="# day 7 commit&#10;# inherit">
+      <option name="closed" value="true" />
+      <created>1713343115149</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1713343115149</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -379,7 +393,8 @@
     <MESSAGE value="# day 5 commit&#10;1. 객체지향 프로그래밍 생성자" />
     <MESSAGE value="# day 6 commit&#10;1. 회원관리 시스템 Member, Test class 1명 관리" />
     <MESSAGE value="# day 6 commit&#10;1. 회원관리 시스템 Member, Test class 1명 관리&#10;2. 회원관리 분기 나누기&#10;3. 삭제회원목록 복구중" />
-    <option name="LAST_COMMIT_MESSAGE" value="# day 6 commit&#10;1. 회원관리 시스템 Member, Test class 1명 관리&#10;2. 회원관리 분기 나누기&#10;3. 삭제회원목록 복구중" />
+    <MESSAGE value="# day 7 commit&#10;# inherit" />
+    <option name="LAST_COMMIT_MESSAGE" value="# day 7 commit&#10;# inherit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -452,6 +467,16 @@
           <url>file://$PROJECT_DIR$/src/day07/inherit/practice/Main.java</url>
           <line>2</line>
           <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day08/cirtfc/Recursive.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/util/SimpleInput.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/day02/ArrayInsert.java</url>

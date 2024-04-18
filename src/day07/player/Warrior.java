@@ -6,9 +6,11 @@ public class Warrior extends Player {
     int rage; //분노게이지
 
     public Warrior (String nickname) {
-        this.nickname = nickname;
-        this.level = 1;
-        this.hp = 50;
+        super(nickname); // 부모의 생성자 중 default constructor 호출
+
+//        this.nickname = nickname;
+//        this.level = 1;
+//        this.hp = 50;
         this.rage = 100;
     }
     //현재 캐릭터 정보를 출력

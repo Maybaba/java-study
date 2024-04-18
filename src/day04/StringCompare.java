@@ -28,7 +28,7 @@ public class StringCompare {
         int b = 10;
         System.out.println(a == b);
 
-        //참조, 객체타입 -> 주소 참조
+        //참조,객체타입 -> 주소 참조
         Dog e = new Dog();
         Dog f = new Dog();
         System.out.println(e == f);
