@@ -41,6 +41,13 @@ public class MemberView {
         String name = si.input("- 이름: ");
         String password = si.input("- 패스워드: ");
         String gender = si.input("- 성별: ");
+        if(gender.equals("남성")) {
+            gender = MemberConstants.MALE;
+        } else if (gender.equals("여성")) {
+            gender = MemberConstants.FEMALE;
+
+        }
+        //switch statement 를 만들 수 있을 때도 사용한다.
         int age = Integer.parseInt(si.input(" - 나이: "));
 
         //입력데이터를 기반으로 한 명의 회원 객체를 생성 Main에서 가져옴

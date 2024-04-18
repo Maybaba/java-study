@@ -4,19 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33d5ee65-a7bb-42e2-b395-7d4ace52d9c9" name="Changes" comment="# day commit&#10;1. static&#10;2. static practice">
-      <change afterPath="$PROJECT_DIR$/src/day08/final_/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/final_/Parent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/final_/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/final_/practice/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/final_/practice/WeatherAnalyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/final_/practice/WeatherConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/final_/practice/연습문제.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/protec/pac1/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/protec/pac1/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/protec/pac2/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/protec/pac2/D.java" afterDir="false" />
+    <list default="true" id="33d5ee65-a7bb-42e2-b395-7d4ace52d9c9" name="Changes" comment="# day commit&#10;1. static&#10;2. static practice&#10;3. final&#10;4. final practice">
+      <change afterPath="$PROJECT_DIR$/src/day06/member/MemberConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/enum_/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/enum_/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/enum_/PizzaStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/enum_/practice/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/enum_/practice/TeamMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/enum_/practice/TeamRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/enum_/practice/연습문제.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day06/member/MemberView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/member/MemberView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day08/final_/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day08/final_/Parent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day08/final_/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day08/final_/practice/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day08/final_/practice/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day08/final_/practice/WeatherAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day08/final_/practice/WeatherAnalyzer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day08/final_/practice/WeatherConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day08/final_/practice/WeatherConstants.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +31,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -99,6 +104,7 @@
     "Application.day07.inherit.Main.executor": "Run",
     "Application.day07.inherit.practice.Main.executor": "Run",
     "Application.day08.cirtfc.Main.executor": "Run",
+    "Application.day08.enum_.Main.executor": "Run",
     "Application.day08.final_.practice.Main.executor": "Run",
     "Application.day08.practice.Main.executor": "Run",
     "Application.day08.practice2.Main.executor": "Run",
@@ -127,19 +133,33 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="day08.enum_.practice" />
       <recent name="day06.member" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/day07/encap/practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.day08.final_.practice.Main">
+  <component name="RunManager" selected="Application.day08.enum_.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day08.static_.Main" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="day08.static_.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="day08.enum_.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day08.enum_.Main" />
+      <module name="java-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day08.enum_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,26 +206,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day08.singleton.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day08.singleton.Main" />
-      <module name="java-study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day08.singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.day08.enum_.Main" />
         <item itemvalue="Application.day08.final_.practice.Main" />
         <item itemvalue="Application.day08.practice2.Main" />
         <item itemvalue="Application.day08.practice.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.day08.singleton.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -238,7 +245,7 @@
       <workItem from="1713318048241" duration="19782000" />
       <workItem from="1713339039974" duration="11303000" />
       <workItem from="1713405025619" duration="8687000" />
-      <workItem from="1713417429660" duration="4778000" />
+      <workItem from="1713417429660" duration="12753000" />
     </task>
     <task id="LOCAL-00001" summary="# test commit">
       <option name="closed" value="true" />
@@ -368,7 +375,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713417914692</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="# day commit&#10;1. static&#10;2. static practice&#10;3. final&#10;4. final practice">
+      <option name="closed" value="true" />
+      <created>1713422284757</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1713422284757</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -400,7 +415,8 @@
     <MESSAGE value="# day 7 commit&#10;# inherit" />
     <MESSAGE value="# day commit&#10;# static" />
     <MESSAGE value="# day commit&#10;1. static&#10;2. static practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="# day commit&#10;1. static&#10;2. static practice" />
+    <MESSAGE value="# day commit&#10;1. static&#10;2. static practice&#10;3. final&#10;4. final practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="# day commit&#10;1. static&#10;2. static practice&#10;3. final&#10;4. final practice" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -456,7 +472,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/day06/member/MemberView.java</url>
-          <line>164</line>
+          <line>171</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -483,6 +499,11 @@
           <url>file://$PROJECT_DIR$/src/util/SimpleInput.java</url>
           <line>17</line>
           <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day08/final_/practice/Main.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/day02/ArrayInsert.java</url>
