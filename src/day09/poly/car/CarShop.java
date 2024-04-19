@@ -1,7 +1,6 @@
 package day09.poly.car;
 
 public class CarShop {
-
     //돈을 주명 자동차를 출고하는 기능
     public Car exportCar(int money) {
         if (money == 6000) {
