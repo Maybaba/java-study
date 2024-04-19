@@ -9,10 +9,10 @@ public class Main {
         TeamMember charlie = new TeamMember("Charlie", LEADER);
         TeamMember david = new TeamMember("David", TESTER);
 
-        alice.assignTask(); // Alice is assigned to Develops the software.
-        bob.assignTask();   // Bob is assigned Designs the user interface.
-        charlie.assignTask(); // Charlie is assigned Manages the team and coordinates.
-        david.assignTask();  // David is assigned Tests the software for bugs.
+//        alice.assignTask(); // Alice is assigned to Develops the software.
+//        bob.assignTask();   // Bob is assigned Designs the user interface.
+//        charlie.assignTask(); // Charlie is assigned Manages the team and coordinates.
+//        david.assignTask();  // David is assigned Tests the software for bugs.
     }
 
 }

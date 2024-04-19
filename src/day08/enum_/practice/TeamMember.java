@@ -9,7 +9,7 @@ package day08.enum_.practice;
             this.role = role;
         }
     }
-    public void assignTask() {
-        System.out.printf("%s is assigned to %s\n", this.name, this.role.getDescription());
-    }
+//    public void assignTask() {
+//        System.out.printf("%s is assigned to %s\n", this.name, this.role.getDescription());
+//    }
 
