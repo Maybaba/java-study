@@ -4,16 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33d5ee65-a7bb-42e2-b395-7d4ace52d9c9" name="Changes" comment="# 9 day commit&#10;1. Polymorphism">
-      <change afterPath="$PROJECT_DIR$/src/day09/poly/casting/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/poly/casting/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/poly/casting/Parent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/poly/연습문제.md" afterDir="false" />
+    <list default="true" id="33d5ee65-a7bb-42e2-b395-7d4ace52d9c9" name="Changes" comment="# 9 day commit&#10;1. Polymorphism&#10;2. practice">
+      <change afterPath="$PROJECT_DIR$/src/day09/book/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/poly/practice/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/poly/practice/ComputerPart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/poly/practice/HardDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/poly/practice/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/poly/practice/Memory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/poly/practice/Processor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day07/player/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/player/Mage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day07/player/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/player/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day09/poly/car/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/poly/car/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day09/poly/car/Sonata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/poly/car/Sonata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day09/poly/연습문제.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/poly/practice/연습문제.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,6 +105,7 @@
     "Application.day08.singleton.Main.executor": "Run",
     "Application.day08.super_.Main.executor": "Run",
     "Application.day09.poly.car.Main.executor": "Run",
+    "Application.day09.poly.practice.Main.executor": "Run",
     "Application.stdIO.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -132,10 +133,11 @@
       <recent name="day06.member" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/day09/poly/practice" />
       <recent name="$PROJECT_DIR$/src/day07/encap/practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.day07.player.Main">
+  <component name="RunManager" selected="Application.day09.poly.practice.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day09.poly.casting.Main" />
       <module name="java-study" />
@@ -175,19 +177,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day08.final_.practice.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day08.final_.practice.Main" />
-      <module name="java-study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day08.final_.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="day09.poly.car.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day09.poly.car.Main" />
       <module name="java-study" />
@@ -201,13 +190,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="day09.poly.practice.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day09.poly.practice.Main" />
+      <module name="java-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day09.poly.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.day09.poly.practice.Main" />
         <item itemvalue="Application.day07.player.Main" />
         <item itemvalue="Application.day09.poly.car.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.day08.enum_.Main" />
-        <item itemvalue="Application.day08.final_.practice.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +243,7 @@
       <workItem from="1713339039974" duration="11303000" />
       <workItem from="1713405025619" duration="8687000" />
       <workItem from="1713417429660" duration="13540000" />
-      <workItem from="1713479987182" duration="10602000" />
+      <workItem from="1713479987182" duration="14474000" />
     </task>
     <task id="LOCAL-00001" summary="# test commit">
       <option name="closed" value="true" />
@@ -411,7 +413,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713488358911</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="# 9 day commit&#10;1. Polymorphism&#10;2. practice">
+      <option name="closed" value="true" />
+      <created>1713492640276</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1713492640276</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -447,7 +457,8 @@
     <MESSAGE value="# day commit&#10;1. static&#10;2. static practice&#10;3. final&#10;4. final practice&#10;5. enum practice ing!" />
     <MESSAGE value="# 8 day commit&#10;1. static&#10;2. static practice&#10;3. final&#10;4. final practice&#10;5. enum practice ing!" />
     <MESSAGE value="# 9 day commit&#10;1. Polymorphism" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 9 day commit&#10;1. Polymorphism" />
+    <MESSAGE value="# 9 day commit&#10;1. Polymorphism&#10;2. practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 9 day commit&#10;1. Polymorphism&#10;2. practice" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
