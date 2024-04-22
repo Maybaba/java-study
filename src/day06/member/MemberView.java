@@ -47,11 +47,22 @@ public class MemberView {
             gender = MemberConstants.FEMALE;
 
         }
-        //switch statement 를 만들 수 있을 때도 사용한다.
-        int age = Integer.parseInt(si.input(" - 나이: "));
 
         //입력데이터를 기반으로 한 명의 회원 객체를 생성 Main에서 가져옴
         Member newMember = new Member(email, password, name, gender, age);
+        
+        //switch statement 를 만들 수 있을 때도 사용한다.
+        while (true) {
+            //정수입력하지않았을 때의 예외처리
+            try {
+                int age = Integer.parseInt(si.input(" - 나이: "));
+            } catch (NumberFormatException e) {
+                System.out.println("나이는 올바른 숫자(정수)로 입력하세요.");
+//                throw new RuntimeException(e);
+            }
+        }
+
+ 
 
         //위임 - 관심사의 분리 (정보의 위임 후 관여하지 않는다 )
         mr.addNewMember(newMember);
@@ -179,11 +190,5 @@ public class MemberView {
 
     //restore 배열을 가져와서 복구
     public void removeMember() {
-
     }
-
-
-
-
-
 }

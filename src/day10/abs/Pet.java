@@ -18,7 +18,7 @@ abstract public class Pet {
 
     //필요에 따른 오버라이딩
     public void walk() {
-
+        System.out.println("over-riding depends on needs");
     }
 
     //강제하는 기능은 추상화
@@ -29,7 +29,6 @@ abstract public class Pet {
     // 기능을 다시 만들기 때문에 abstract를 활용한다.
     // }
 }
-
 // 추상 메서드는 본문이 없는 껍데기 역할
 // 자식들에게 이름을 통일시키기 위한 장치로만 사용
 // 추상메서드는 추상 클래스 안에서만 선언 가능

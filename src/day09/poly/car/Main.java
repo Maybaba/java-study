@@ -2,6 +2,8 @@ package day09.poly.car;
 
 import day07.modi.pac2.C;
 
+import java.util.Stack;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -76,5 +78,12 @@ public class Main {
         System.out.println("=====param 소나타로 받음?=========");
 
         driver.drive(new Sonata());
+        sonata1.accelerate();
+
+        //interface는 짜여진 툴을 따라 편하게 활용할 수 있다.
+        Stack<Object> objects = new Stack<>();
+        // Stack.pop();
+        // Stack.push();
+
     }
 }

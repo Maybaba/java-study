@@ -1,8 +1,9 @@
 package day09.poly.car;
 
-public class Car {
+public interface Car {
 
-    public void accelerate() {
-        System.out.println("자동차가 달립니다. ");
-    }
+    //자동차 명세서
+    void accelerate();
+    void decrease();
+    void changeGear();
 }

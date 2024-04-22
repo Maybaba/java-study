@@ -4,27 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33d5ee65-a7bb-42e2-b395-7d4ace52d9c9" name="Changes" comment="# 9 day commit&#10;1. Polymorphism&#10;2. practice&#10;3. Book management tool - ing">
-      <change afterPath="$PROJECT_DIR$/src/day08/singleton/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/book/BookList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/book/LibraryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/book/LibraryView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/book/UserList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/abs/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/abs/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/abs/GoldFish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/abs/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/abs/Pet.java" afterDir="false" />
+    <list default="true" id="33d5ee65-a7bb-42e2-b395-7d4ace52d9c9" name="Changes" comment="# 10 day commit&#10;1. abstract">
+      <change afterPath="$PROJECT_DIR$/src/day10/exception/TryExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/exception/TryExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/interface_/Galaxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/interface_/Iphone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/interface_/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/interface_/SmartPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/interface_/animal/Aggressive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/interface_/animal/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/interface_/animal/BullDog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/interface_/animal/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/interface_/animal/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/interface_/animal/Hunterble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/interface_/animal/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/interface_/animal/Rabbit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/interface_/animal/Shark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/interface_/animal/Violence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/interface_/practice/AudioPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/interface_/practice/ImageDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/interface_/practice/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/interface_/practice/MediaPlayable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/interface_/practice/MediaPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/interface_/practice/VideoPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/interface_/practice/연습문제.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/sort/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/sort/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/sort/SelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day09/book/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/book/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day09/book/BookUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/book/BookUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day09/book/CartoonBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/book/CartoonBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day09/book/LibrabyView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day09/book/LibraryLepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day09/book/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/book/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day09/book/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/book/Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day09/poly/car/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/poly/car/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day06/member/MemberView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/member/MemberView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day09/book/LibraryView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/book/LibraryView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day09/poly/car/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/poly/car/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day09/poly/car/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/poly/car/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day09/poly/car/Mustang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/poly/car/Mustang.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day09/poly/car/Sonata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/poly/car/Sonata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day09/poly/car/Tucson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/poly/car/Tucson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day10/abs/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day10/abs/Pet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +50,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -73,75 +89,81 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ArrayBasic.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayCopy.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayDelete.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayInsert.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayPop.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayPush.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayQuiz01.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayQuiz02.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayQuiz03.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArraySearch.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DancerMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DataType.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DogMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FieldName.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ListMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Matrix.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MethodBasic.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MethodQuiz.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PackageMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Recursive.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Run.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ScannerPractice.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringCompare.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TypeCasting.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Variable.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Variavble.executor&quot;: &quot;Run&quot;,
-    &quot;Application.day06.member.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.day07.encap.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.day07.encap.practice.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.day07.inherit.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.day07.inherit.practice.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.day07.player.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.day08.cirtfc.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.day08.enum_.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.day08.final_.practice.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.day08.practice.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.day08.practice2.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.day08.singleton.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.day08.super_.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.day09.book.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.day09.poly.car.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.day09.poly.practice.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.stdIO.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ToolWindowGit.ShowToolbar&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/sin-yunjong/Desktop/academy/java-study&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/sin-yunjong/Desktop/academy/java-study/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ArrayBasic.executor": "Run",
+    "Application.ArrayCopy.executor": "Run",
+    "Application.ArrayDelete.executor": "Run",
+    "Application.ArrayInsert.executor": "Run",
+    "Application.ArrayPop.executor": "Run",
+    "Application.ArrayPush.executor": "Run",
+    "Application.ArrayQuiz01.executor": "Run",
+    "Application.ArrayQuiz02.executor": "Run",
+    "Application.ArrayQuiz03.executor": "Run",
+    "Application.ArraySearch.executor": "Run",
+    "Application.BubbleSort.executor": "Run",
+    "Application.DancerMain.executor": "Run",
+    "Application.DataType.executor": "Run",
+    "Application.DogMain.executor": "Run",
+    "Application.FieldName.executor": "Run",
+    "Application.ListMain.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Matrix.executor": "Run",
+    "Application.MethodBasic.executor": "Run",
+    "Application.MethodQuiz.executor": "Run",
+    "Application.PackageMain.executor": "Run",
+    "Application.Recursive.executor": "Run",
+    "Application.Run.executor": "Run",
+    "Application.ScannerPractice.executor": "Run",
+    "Application.StringCompare.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.TryExample1.executor": "Run",
+    "Application.TryExample2.executor": "Run",
+    "Application.TypeCasting.executor": "Run",
+    "Application.Variable.executor": "Run",
+    "Application.Variavble.executor": "Run",
+    "Application.day06.member.Main.executor": "Run",
+    "Application.day07.encap.Main.executor": "Run",
+    "Application.day07.encap.practice.Main.executor": "Run",
+    "Application.day07.inherit.Main.executor": "Run",
+    "Application.day07.inherit.practice.Main.executor": "Run",
+    "Application.day07.player.Main.executor": "Run",
+    "Application.day08.cirtfc.Main.executor": "Run",
+    "Application.day08.enum_.Main.executor": "Run",
+    "Application.day08.final_.practice.Main.executor": "Run",
+    "Application.day08.practice.Main.executor": "Run",
+    "Application.day08.practice2.Main.executor": "Run",
+    "Application.day08.singleton.Main.executor": "Run",
+    "Application.day08.super_.Main.executor": "Run",
+    "Application.day09.book.Main.executor": "Run",
+    "Application.day09.poly.car.Main.executor": "Run",
+    "Application.day09.poly.practice.Main.executor": "Run",
+    "Application.day10.interface_.practice.Main.executor": "Run",
+    "Application.stdIO.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ToolWindowGit.ShowToolbar": "false",
+    "create.test.in.the.same.root": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/sin-yunjong/Desktop/academy/java-study",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/sin-yunjong/Desktop/academy/java-study/src/Main.java",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="day10.interface_.animal" />
       <recent name="day08.enum_.practice" />
       <recent name="day06.member" />
     </key>
@@ -153,13 +175,26 @@
       <recent name="day01" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day10.abs.Main" />
+  <component name="RunManager" selected="Application.TryExample2">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day10.sort.BubbleSort" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day10.abs.*" />
+          <option name="PATTERN" value="day10.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day06.member.Main" />
+      <module name="java-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day06.member.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,12 +215,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day09.book.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day09.book.Main" />
+    <configuration name="TryExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day10.exception.TryExample1" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day09.book.*" />
+          <option name="PATTERN" value="day10.exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,25 +228,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day09.poly.car.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day09.poly.car.Main" />
+    <configuration name="TryExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day10.exception.TryExample2" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day09.poly.car.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="day09.poly.practice.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day09.poly.practice.Main" />
-      <module name="java-study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day09.poly.practice.*" />
+          <option name="PATTERN" value="day10.exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -221,11 +243,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TryExample2" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.TryExample1" />
+        <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.Run" />
-        <item itemvalue="Application.day09.book.Main" />
-        <item itemvalue="Application.day09.poly.car.Main" />
-        <item itemvalue="Application.day09.poly.practice.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -261,7 +283,7 @@
       <workItem from="1713417429660" duration="13540000" />
       <workItem from="1713479987182" duration="19094000" />
       <workItem from="1713504295927" duration="24445000" />
-      <workItem from="1713743995750" duration="2826000" />
+      <workItem from="1713743995750" duration="16716000" />
     </task>
     <task id="LOCAL-00001" summary="# test commit">
       <option name="closed" value="true" />
@@ -455,7 +477,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713498700152</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="# 10 day commit&#10;1. abstract">
+      <option name="closed" value="true" />
+      <created>1713747784044</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1713747784044</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -493,7 +523,8 @@
     <MESSAGE value="# 9 day commit&#10;1. Polymorphism" />
     <MESSAGE value="# 9 day commit&#10;1. Polymorphism&#10;2. practice" />
     <MESSAGE value="# 9 day commit&#10;1. Polymorphism&#10;2. practice&#10;3. Book management tool - ing" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 9 day commit&#10;1. Polymorphism&#10;2. practice&#10;3. Book management tool - ing" />
+    <MESSAGE value="# 10 day commit&#10;1. abstract" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 10 day commit&#10;1. abstract" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -549,7 +580,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/day06/member/MemberView.java</url>
-          <line>171</line>
+          <line>182</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -591,6 +622,16 @@
           <url>file://$PROJECT_DIR$/src/day09/book/Run.java</url>
           <line>3</line>
           <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day10/abs/Main.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day10/sort/BubbleSort.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/day02/ArrayInsert.java</url>
