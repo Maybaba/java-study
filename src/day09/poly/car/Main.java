@@ -56,7 +56,7 @@ public class Main {
         //객체타입에서 다운캐스팅의 전제조건 : 반드시 상속관계가 있어야 하며
         //자식객체가 부모타입으로 업캐스팅 된 것만 내릴 수 있음
         //즉 부모객체를 자식타입으로 내릴 수는 없다
-        Car car = (Sonata)shop.exportCar(6000);
+        Car car = (Mustang)shop.exportCar(6000);
         //리턴값이 업캐스팅 된 값
         //car 부모 타입으로 업캐스팅 되었음.
         car.accelerate();
@@ -72,5 +72,9 @@ public class Main {
         //부모타입으로 업캐스팅 한 것을 다시 다운캐스팅 할 수 있다.
         Car ttt = new Tucson();
         Tucson tts = (Tucson) ttt;
+
+        System.out.println("=====param 소나타로 받음?=========");
+
+        driver.drive(new Sonata());
     }
 }

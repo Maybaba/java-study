@@ -4,18 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33d5ee65-a7bb-42e2-b395-7d4ace52d9c9" name="Changes" comment="# 9 day commit&#10;1. Polymorphism&#10;2. practice">
-      <change afterPath="$PROJECT_DIR$/src/day09/book/BookUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/book/CartoonBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/book/CookBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/book/Gender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/book/LibrabyView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/book/LibraryLepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/book/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/book/RentStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/book/Run.java" afterDir="false" />
+    <list default="true" id="33d5ee65-a7bb-42e2-b395-7d4ace52d9c9" name="Changes" comment="# 9 day commit&#10;1. Polymorphism&#10;2. practice&#10;3. Book management tool - ing">
+      <change afterPath="$PROJECT_DIR$/src/day08/singleton/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/book/BookList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/book/LibraryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/book/LibraryView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/book/UserList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/abs/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/abs/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/abs/GoldFish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/abs/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/abs/Pet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day09/book/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/book/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day09/book/BookUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/book/BookUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day09/book/CartoonBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/book/CartoonBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day09/book/LibrabyView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day09/book/LibraryLepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day09/book/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/book/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day09/book/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/book/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day09/poly/car/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/poly/car/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day09/poly/car/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/poly/car/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,72 +73,73 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ArrayBasic.executor": "Run",
-    "Application.ArrayCopy.executor": "Run",
-    "Application.ArrayDelete.executor": "Run",
-    "Application.ArrayInsert.executor": "Run",
-    "Application.ArrayPop.executor": "Run",
-    "Application.ArrayPush.executor": "Run",
-    "Application.ArrayQuiz01.executor": "Run",
-    "Application.ArrayQuiz02.executor": "Run",
-    "Application.ArrayQuiz03.executor": "Run",
-    "Application.ArraySearch.executor": "Run",
-    "Application.DancerMain.executor": "Run",
-    "Application.DataType.executor": "Run",
-    "Application.DogMain.executor": "Run",
-    "Application.FieldName.executor": "Run",
-    "Application.ListMain.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Matrix.executor": "Run",
-    "Application.MethodBasic.executor": "Run",
-    "Application.MethodQuiz.executor": "Run",
-    "Application.PackageMain.executor": "Run",
-    "Application.Recursive.executor": "Run",
-    "Application.ScannerPractice.executor": "Run",
-    "Application.StringCompare.executor": "Run",
-    "Application.Test.executor": "Run",
-    "Application.TypeCasting.executor": "Run",
-    "Application.Variable.executor": "Run",
-    "Application.Variavble.executor": "Run",
-    "Application.day06.member.Main.executor": "Run",
-    "Application.day07.encap.Main.executor": "Run",
-    "Application.day07.encap.practice.Main.executor": "Run",
-    "Application.day07.inherit.Main.executor": "Run",
-    "Application.day07.inherit.practice.Main.executor": "Run",
-    "Application.day07.player.Main.executor": "Run",
-    "Application.day08.cirtfc.Main.executor": "Run",
-    "Application.day08.enum_.Main.executor": "Run",
-    "Application.day08.final_.practice.Main.executor": "Run",
-    "Application.day08.practice.Main.executor": "Run",
-    "Application.day08.practice2.Main.executor": "Run",
-    "Application.day08.singleton.Main.executor": "Run",
-    "Application.day08.super_.Main.executor": "Run",
-    "Application.day09.book.Main.executor": "Run",
-    "Application.day09.poly.car.Main.executor": "Run",
-    "Application.day09.poly.practice.Main.executor": "Run",
-    "Application.stdIO.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ToolWindowGit.ShowToolbar": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/sin-yunjong/Desktop/academy/java-study",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/sin-yunjong/Desktop/academy/java-study/src/Main.java",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ArrayBasic.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayCopy.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayDelete.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayInsert.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayPop.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayPush.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayQuiz01.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayQuiz02.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayQuiz03.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArraySearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DancerMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DataType.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DogMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FieldName.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Matrix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MethodBasic.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MethodQuiz.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PackageMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Recursive.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Run.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ScannerPractice.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringCompare.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TypeCasting.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Variable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Variavble.executor&quot;: &quot;Run&quot;,
+    &quot;Application.day06.member.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.day07.encap.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.day07.encap.practice.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.day07.inherit.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.day07.inherit.practice.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.day07.player.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.day08.cirtfc.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.day08.enum_.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.day08.final_.practice.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.day08.practice.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.day08.practice2.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.day08.singleton.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.day08.super_.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.day09.book.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.day09.poly.car.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.day09.poly.practice.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.stdIO.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ToolWindowGit.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/sin-yunjong/Desktop/academy/java-study&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/sin-yunjong/Desktop/academy/java-study/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="day08.enum_.practice" />
@@ -143,13 +153,13 @@
       <recent name="day01" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.day09.book.Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day09.poly.casting.Main" />
+      <option name="MAIN_CLASS_NAME" value="day10.abs.Main" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day09.poly.casting.*" />
+          <option name="PATTERN" value="day10.abs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,12 +167,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day07.player.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day07.player.Main" />
+    <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day09.book.Run" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day07.player.*" />
+          <option name="PATTERN" value="day09.book.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -211,11 +221,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.day09.book.Main" />
-        <item itemvalue="Application.day09.poly.practice.Main" />
-        <item itemvalue="Application.day07.player.Main" />
-        <item itemvalue="Application.day09.poly.car.Main" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Run" />
+        <item itemvalue="Application.day09.book.Main" />
+        <item itemvalue="Application.day09.poly.car.Main" />
+        <item itemvalue="Application.day09.poly.practice.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -249,7 +259,9 @@
       <workItem from="1713339039974" duration="11303000" />
       <workItem from="1713405025619" duration="8687000" />
       <workItem from="1713417429660" duration="13540000" />
-      <workItem from="1713479987182" duration="16095000" />
+      <workItem from="1713479987182" duration="19094000" />
+      <workItem from="1713504295927" duration="24445000" />
+      <workItem from="1713743995750" duration="2826000" />
     </task>
     <task id="LOCAL-00001" summary="# test commit">
       <option name="closed" value="true" />
@@ -435,7 +447,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713496963198</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="# 9 day commit&#10;1. Polymorphism&#10;2. practice&#10;3. Book management tool - ing">
+      <option name="closed" value="true" />
+      <created>1713498700152</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1713498700152</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -472,7 +492,8 @@
     <MESSAGE value="# 8 day commit&#10;1. static&#10;2. static practice&#10;3. final&#10;4. final practice&#10;5. enum practice ing!" />
     <MESSAGE value="# 9 day commit&#10;1. Polymorphism" />
     <MESSAGE value="# 9 day commit&#10;1. Polymorphism&#10;2. practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 9 day commit&#10;1. Polymorphism&#10;2. practice" />
+    <MESSAGE value="# 9 day commit&#10;1. Polymorphism&#10;2. practice&#10;3. Book management tool - ing" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 9 day commit&#10;1. Polymorphism&#10;2. practice&#10;3. Book management tool - ing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -562,14 +583,14 @@
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/day09/poly/car/Main.java</url>
-          <line>4</line>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/day09/book/BookUser.java</url>
           <line>2</line>
           <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day09/book/Run.java</url>
+          <line>3</line>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/day02/ArrayInsert.java</url>

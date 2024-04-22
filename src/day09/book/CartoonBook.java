@@ -1,5 +1,6 @@
 package day09.book;
 
+//role :
 public class CartoonBook extends Book {
     private int accessAge; // 나이 제한
 
