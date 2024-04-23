@@ -1,7 +1,5 @@
 package day09.book;
 
-import java.util.Arrays;
-
 //role : Manage data that members, books, etc...
 public class LibraryRepository {
 
@@ -15,7 +13,7 @@ public class LibraryRepository {
         users = new UserList();
 
         //관리자
-        users.push(new BookUser("관리자 메이", 26, Gender.FEMALE, 0));
+        users.push(new BookUser("관리자 메이", 26, Gender.FEMALE, 99999999));
 
         bookList.push(new CookBook("기적의 김치볶음밥", "김해진", "청림라이프", true));
         bookList.push(new CartoonBook("떨어지면 꿈에서 깨어나", "스에노부 케이코", "대원씨아이", 18));
@@ -27,7 +25,8 @@ public class LibraryRepository {
     }
 
 
-    //save new user -> BookUser의 입력값이 객체로 전달되지 않음
+    //save new user -> BookUser의 입력값이 객체로 전달되지 않음 ->
+    // library repository의 static 객체를 생성하지 않아 발생
     public void saveBookUser(BookUser newBookUser) {
         System.out.println("newBookUser = " + newBookUser);
         users.push(newBookUser);
@@ -88,5 +87,22 @@ public class LibraryRepository {
     public BookUser getBookUser() {
         return user;
     }
+
+    /*
+
+    //find user by name & age
+    public BookUser findMemberByNameAndAge(String inputName, int inputAge) {
+        for (BookUser m : users) {
+            if(inputName.equals(users.name)) {
+                if(inputAge.equals(users.age))
+                    return m;
+            }
+                return m;
+        }
+        return null;
+    }
+
+     */
+
 }
 

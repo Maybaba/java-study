@@ -4,42 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33d5ee65-a7bb-42e2-b395-7d4ace52d9c9" name="Changes" comment="# 10 day commit&#10;1. abstract">
-      <change afterPath="$PROJECT_DIR$/src/day10/exception/TryExample1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/exception/TryExample2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/interface_/Galaxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/interface_/Iphone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/interface_/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/interface_/SmartPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/interface_/animal/Aggressive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/interface_/animal/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/interface_/animal/BullDog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/interface_/animal/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/interface_/animal/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/interface_/animal/Hunterble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/interface_/animal/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/interface_/animal/Rabbit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/interface_/animal/Shark.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/interface_/animal/Violence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/interface_/practice/AudioPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/interface_/practice/ImageDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/interface_/practice/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/interface_/practice/MediaPlayable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/interface_/practice/MediaPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/interface_/practice/VideoPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/interface_/practice/연습문제.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/sort/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/sort/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/sort/SelectionSort.java" afterDir="false" />
+    <list default="true" id="33d5ee65-a7bb-42e2-b395-7d4ace52d9c9" name="Changes" comment="# day 10 commit&#10;1. Abstract&#10;2. Sort&#10;3. Exception">
+      <change afterPath="$PROJECT_DIR$/src/day09/book/InvalidAgeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/exception/InvalidLoginInputException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/exception/LoginUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/exception/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/exception/ThrowsExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day11/api/lang/ObjectSample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day06/member/MemberList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/member/MemberList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day06/member/MemberView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/member/MemberView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day09/book/BookList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/book/BookList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day09/book/BookUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/book/BookUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day09/book/LibraryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/book/LibraryRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day09/book/LibraryView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/book/LibraryView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day09/poly/car/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/poly/car/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day09/poly/car/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/poly/car/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day09/poly/car/Mustang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/poly/car/Mustang.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day09/poly/car/Sonata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/poly/car/Sonata.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day09/poly/car/Tucson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/poly/car/Tucson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day10/abs/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day10/abs/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day09/book/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day09/book/UserList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/book/UserList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day10/exception/TryExample2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day10/exception/TryExample2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +92,7 @@
     "Application.Matrix.executor": "Run",
     "Application.MethodBasic.executor": "Run",
     "Application.MethodQuiz.executor": "Run",
+    "Application.ObjectSample.executor": "Run",
     "Application.PackageMain.executor": "Run",
     "Application.Recursive.executor": "Run",
     "Application.Run.executor": "Run",
@@ -138,6 +120,7 @@
     "Application.day09.book.Main.executor": "Run",
     "Application.day09.poly.car.Main.executor": "Run",
     "Application.day09.poly.practice.Main.executor": "Run",
+    "Application.day10.exception.Main.executor": "Run",
     "Application.day10.interface_.practice.Main.executor": "Run",
     "Application.stdIO.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -175,13 +158,13 @@
       <recent name="day01" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TryExample2">
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day10.sort.BubbleSort" />
+  <component name="RunManager" selected="Application.ObjectSample">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day06.member.Main" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day10.sort.*" />
+          <option name="PATTERN" value="day06.member.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,12 +172,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day06.member.Main" />
+    <configuration name="ObjectSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day11.api.lang.ObjectSample" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day06.member.*" />
+          <option name="PATTERN" value="day11.api.lang.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -215,19 +198,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TryExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day10.exception.TryExample1" />
-      <module name="java-study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day10.exception.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TryExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day10.exception.TryExample2" />
       <module name="java-study" />
@@ -241,13 +211,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="day10.exception.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day10.exception.Main" />
+      <module name="java-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day10.exception.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TryExample2" />
+        <item itemvalue="Application.ObjectSample" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.TryExample1" />
-        <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.Run" />
+        <item itemvalue="Application.day10.exception.Main" />
+        <item itemvalue="Application.TryExample2" />
       </list>
     </recent_temporary>
   </component>
@@ -283,7 +266,9 @@
       <workItem from="1713417429660" duration="13540000" />
       <workItem from="1713479987182" duration="19094000" />
       <workItem from="1713504295927" duration="24445000" />
-      <workItem from="1713743995750" duration="16716000" />
+      <workItem from="1713743995750" duration="26903000" />
+      <workItem from="1713821723135" duration="3296000" />
+      <workItem from="1713829863937" duration="3375000" />
     </task>
     <task id="LOCAL-00001" summary="# test commit">
       <option name="closed" value="true" />
@@ -485,7 +470,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713747784044</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="# 10 day commit&#10;1. Abstract&#10;2. Sort&#10;3. Exception">
+      <option name="closed" value="true" />
+      <created>1713765588030</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1713765588030</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -524,7 +517,8 @@
     <MESSAGE value="# 9 day commit&#10;1. Polymorphism&#10;2. practice" />
     <MESSAGE value="# 9 day commit&#10;1. Polymorphism&#10;2. practice&#10;3. Book management tool - ing" />
     <MESSAGE value="# 10 day commit&#10;1. abstract" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 10 day commit&#10;1. abstract" />
+    <MESSAGE value="# 10 day commit&#10;1. Abstract&#10;2. Sort&#10;3. Exception" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 10 day commit&#10;1. Abstract&#10;2. Sort&#10;3. Exception" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -619,11 +613,6 @@
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/day09/book/Run.java</url>
-          <line>3</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/day10/abs/Main.java</url>
           <line>2</line>
           <option name="timeStamp" value="32" />
@@ -632,6 +621,16 @@
           <url>file://$PROJECT_DIR$/src/day10/sort/BubbleSort.java</url>
           <line>2</line>
           <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day09/book/Run.java</url>
+          <line>3</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day10/exception/Main.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/day02/ArrayInsert.java</url>

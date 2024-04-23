@@ -15,8 +15,8 @@ public class BookUser {
         this.gender = gender;
         this.couponCount = couponCount;
 
-        System.out.println("입력한 data 중 name = " + name);
-        //정상적으로 instance 만들어짐, instance가 saveBookUser 로 가는지 확인
+//        System.out.println("입력한 data 정상적으로 입력완료");
+        //정상적으로 instance 만들어짐, instance가 saveBookUser 로 가는지 확인완료
     }
 
     public String getName() {
@@ -56,7 +56,7 @@ public class BookUser {
 
     //회원 정보 문자열 생성
     public String toString() {
-        return "name : " + this.name + "age : " + this.age + "gender : " + gender;
+        return "****** 신규 회원 가입을 축하드립니다. ******\n name : " + this.name + " age : " + this.age + " gender : " + gender;
     }
 }
 

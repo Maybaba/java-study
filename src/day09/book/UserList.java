@@ -18,8 +18,6 @@ public class UserList {
         }
         temp[temp.length -1] = newUser;
         this.uArr = temp;
-
-        System.out.println("newUser = " + newUser);
     }
 
     //pop - delete last user

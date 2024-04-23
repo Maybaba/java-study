@@ -1,9 +1,7 @@
 package day09.book;
 
 public class BookList {
-    //bookList, bookUserList 같이 묶어보기
-
-
+    // bookList, bookUserList 같이 묶어보기
     private Book[] bArr;
 
     private static final int NOT_FOUND = -1;
