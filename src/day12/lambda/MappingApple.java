@@ -35,5 +35,6 @@ public class MappingApple {
             mappedList.add(y);
         }
         return mappedList;
+
     }
 }
