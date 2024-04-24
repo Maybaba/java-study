@@ -17,7 +17,7 @@ public class Member {
     // - 객체가 생성될 시점에 호출되는 함수로 객체의 초기화를 담당한다.
     // 시스템이 생성하는 데이터 : 회원번호, 회원가입일자
     // 사용자가 제공하는 데이터 : 이메일, 패스워드, 이름, 성별, 나이
-    Member(String email, String password, String memberName, String gender, int age) { //생성자 기본타입 : void
+    public Member(String email, String password, String memberName, String gender, int age) { //생성자 기본타입 : void
         this.id = 1;
         this.regDate = LocalDate.now(); //현재 시간을 읽어서 처리
 
@@ -38,6 +38,10 @@ public class Member {
 //    public String toString() {
 //        return super.toString(); //16진수 Hex값으로 자동으로 호촐된다.
 //    }
+// 회원의 비밀번호를 수정하는 메서드
+void changePassword(String newPassword) {
+    this.password = newPassword;
+}
 
 
 }

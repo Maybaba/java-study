@@ -7,6 +7,7 @@ import java.util.Set;
 
 
 public class SetExample {
+
     public static void main(String[] args) {
         //중복저장 허용x, 순서가 없음, 비교적 빠른 저장속도
         Set<String> set = new HashSet<>();
@@ -38,7 +39,7 @@ public class SetExample {
         numbers = new ArrayList<>(numberSet);
         System.out.println("numbers = " + numbers);
 
-        //map 변화
+        //map 변환
 
 
     }

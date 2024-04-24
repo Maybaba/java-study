@@ -11,7 +11,7 @@ public class Main {
 
         MemberController mc = new MemberController();
 
-        mc.run();
+       // mc.run();
 
         //회원정보 입력받아 회원 배열에 저장
 //        Member[] members = {};

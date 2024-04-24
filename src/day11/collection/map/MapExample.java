@@ -18,7 +18,7 @@ public class MapExample {
         Map<String, Object> emp = new HashMap<>();
         emp.put("empName", "철철");
         emp.put("emp", "머시 중헌디");
-        System.out.println("map = " + map.size());
+        System.out.println("map emp size = " + map.size());
 
         //get(key)
         int money = (int)map.get("지갑잔액");

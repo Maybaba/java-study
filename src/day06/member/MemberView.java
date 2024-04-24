@@ -16,12 +16,14 @@ public class MemberView {
         this.rm = new RestoreMembers();
     }
 
-    void showMembers() {
+   /* void showMembers() {
         System.out.printf("========= 현재 회원 목록 (총 %d명) ==========\n", mr.members.length);
         for (Member m : mr.members) {
             System.out.println(m);
         }
     }
+
+    */
 
 
     //회원정보 생성을 위해 입력을 처리 + 회원정보 입력 시 입력완료 메시지 출력
@@ -70,7 +72,7 @@ public class MemberView {
         //입력완료
         System.out.println("**회원정보 저장 완료 **");
     }
-
+/*
     //사용자에게 보여줄 전체 메뉴 화면 출력
     String showProgramMenu() {
         System.out.println("\n##### 회원 관리 시스템 #####");
@@ -90,6 +92,8 @@ public class MemberView {
         return menuNumber;
     }
 
+ */
+/*
     //현재 회원이 있는지 확인하기
     boolean isEmptyMembersArray() {
         if (mr.members.length > 0) {
@@ -97,6 +101,8 @@ public class MemberView {
         }
         return false;
     }
+
+ */
 
     //프로그램 종료를 판단하는 입출력
     boolean exitProgram() {
@@ -182,13 +188,31 @@ public class MemberView {
         }
     }
 
-    // 회원 복구에 관련한 입출력 관리  : 선생님 레포 참고
-    /*   public void restoreMember() {
+    // 회원 복구에 관련한 입출력 처리
+    public void restoreMember() {
+
+
+        String inputEmail = si.input("# 복구하실 회원의 이메일을 입력하세요.\n>> ");
+
+        // 이메일이 일치하는 회원이 복구리스트에 있는지 조회
+        Member foundMember = mr.findRestoreMemberByEmail(inputEmail);
+
+        if (foundMember != null) {
+            // 패스워드 검사
+            String inputPw = si.input("# 비밀번호를 입력: ");
+            if (inputPw.equals(foundMember.password)) {
+                mr.restore(inputEmail);
+                System.out.printf("# %s님의 회원정보가 복구되었습니다.\n", foundMember.memberName);
+            } else {
+                System.out.println("\n# 비밀번호가 일치하지 않습니다. 복구를 취소합니다.");
+            }
+        } else {
+            System.out.println("\n# 해당 회원은 복구대상이 아닙니다.");
+        }
 
     }
-    */
 
-    //restore 배열을 가져와서 복구
-    public void removeMember() {
+    public void load() {
+        mr.loadFile();
     }
 }
