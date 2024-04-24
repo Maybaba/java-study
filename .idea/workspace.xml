@@ -4,37 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33d5ee65-a7bb-42e2-b395-7d4ace52d9c9" name="Changes" comment="# day 11 commit&#10;1. java API - object, Calender ...&#10;2. generic&#10;3. set, list, map&#10;4. quiz - ing">
-      <change afterPath="$PROJECT_DIR$/src/day11/song/Artist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day11/song/ArtistRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day11/song/ArtistView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day11/song/Run.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day12/inner/AddCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day12/inner/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day12/inner/FrenchRestaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day12/inner/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day12/inner/Restaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day12/io/FileExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day12/io/byteStream/FileInputExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day12/io/byteStream/FileOutputExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day12/io/obj/LoadSnack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day12/io/obj/SaveSnack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day12/io/obj/Snack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day12/io/textStream/FileReaderExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day12/io/textStream/FileWriterExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day12/lambda/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day12/lambda/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day12/lambda/FilterApple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day12/lambda/Main.java" afterDir="false" />
+    <list default="true" id="33d5ee65-a7bb-42e2-b395-7d4ace52d9c9" name="Changes" comment="# day 11 ~ 12 commit&#10;1. java API - object, Calender ...&#10;2. generic &#10;3. set, list, map&#10;4. quiz - ing&#10;5. inputoutput &#10;6. 제너릭을 이용한 함수형인터페이스 - 수정중">
+      <change afterPath="$PROJECT_DIR$/src/day12/Stream/Dish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day12/Stream/Filtering.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day12/Stream/Mapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day12/Stream/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day12/Stream/SimpleDish.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day06/member/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/member/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day06/member/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/member/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day06/member/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/member/MemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day06/member/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/member/MemberRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day06/member/MemberView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/member/MemberView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day11/collection/map/MapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day11/collection/map/MapExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day11/collection/set/SetExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day11/collection/set/SetExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -107,6 +83,7 @@
     "Application.FileOutputExample.executor": "Run",
     "Application.FileReaderExample.executor": "Run",
     "Application.FileWriterExample.executor": "Run",
+    "Application.Filtering.executor": "Run",
     "Application.ListExample.executor": "Run",
     "Application.ListMain.executor": "Run",
     "Application.LoadSnack.executor": "Run",
@@ -176,6 +153,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="day12.lambda" />
       <recent name="day10.interface_.animal" />
       <recent name="day08.enum_.practice" />
       <recent name="day06.member" />
@@ -192,13 +170,13 @@
       <recent name="day12.io.byteStream" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LoadSnack">
-    <configuration name="FileReaderExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day12.io.textStream.FileReaderExample" />
+  <component name="RunManager" selected="Application.Filtering">
+    <configuration name="Filtering" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day12.Stream.Filtering" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day12.io.textStream.*" />
+          <option name="PATTERN" value="day12.Stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -250,7 +228,7 @@
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day12.lambda.*" />
+          <option name="PATTERN" value="day12.lambda.ApplePredicate" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -260,11 +238,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Filtering" />
         <item itemvalue="Application.LoadSnack" />
         <item itemvalue="Application.day12.lambda.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.SaveSnack" />
-        <item itemvalue="Application.FileReaderExample" />
       </list>
     </recent_temporary>
   </component>
@@ -310,7 +288,7 @@
       <workItem from="1713921331615" duration="5973000" />
       <workItem from="1713927326259" duration="2459000" />
       <workItem from="1713930192005" duration="1505000" />
-      <workItem from="1713932462111" duration="5345000" />
+      <workItem from="1713932462111" duration="14659000" />
     </task>
     <task id="LOCAL-00001" summary="# test commit">
       <option name="closed" value="true" />
@@ -536,7 +514,23 @@
       <option name="project" value="LOCAL" />
       <updated>1713845477363</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="# day 11 ~ 12 commit&#10;1. java API - object, Calender ...&#10;2. generic&#10;3. set, list, map&#10;4. quiz - ing&#10;5. inputoutput&#10;6. 제너릭을 이용한 함수형인터페이스 - 수정중">
+      <option name="closed" value="true" />
+      <created>1713942768511</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1713942768511</updated>
+    </task>
+    <task id="LOCAL-00030" summary="# day 11 ~ 12 commit&#10;1. java API - object, Calender ...&#10;2. generic &#10;3. set, list, map&#10;4. quiz - ing&#10;5. inputoutput &#10;6. 제너릭을 이용한 함수형인터페이스 - 수정중">
+      <option name="closed" value="true" />
+      <created>1713942865509</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1713942865509</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -554,8 +548,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="# initial commit" />
-    <MESSAGE value="# test commit" />
     <MESSAGE value="# day 1 commit&#10;1. variable&#10;2. data type&#10;3. type casting" />
     <MESSAGE value="# day 2 commit&#10;1. TypeCasting&#10;2. stdIO, Scanner&#10;3. array" />
     <MESSAGE value="# day 2 commit&#10;1. TypeCasting&#10;2. stdIO, Scanner&#10;3. array &#10;4. array push, pop quiz" />
@@ -578,7 +570,10 @@
     <MESSAGE value="# 10 day commit&#10;1. Abstract&#10;2. Sort&#10;3. Exception" />
     <MESSAGE value="# day 11 commit&#10;1. java API - object" />
     <MESSAGE value="# day 11 commit&#10;1. java API - object, Calender ...&#10;2. generic&#10;3. set, list, map" />
-    <option name="LAST_COMMIT_MESSAGE" value="# day 11 commit&#10;1. java API - object, Calender ...&#10;2. generic&#10;3. set, list, map" />
+    <MESSAGE value="# day 11 commit&#10;1. java API - object, Calender ...&#10;2. generic&#10;3. set, list, map&#10;4. quiz - ing" />
+    <MESSAGE value="# day 11 ~ 12 commit&#10;1. java API - object, Calender ...&#10;2. generic&#10;3. set, list, map&#10;4. quiz - ing&#10;5. inputoutput&#10;6. 제너릭을 이용한 함수형인터페이스 - 수정중" />
+    <MESSAGE value="# day 11 ~ 12 commit&#10;1. java API - object, Calender ...&#10;2. generic &#10;3. set, list, map&#10;4. quiz - ing&#10;5. inputoutput &#10;6. 제너릭을 이용한 함수형인터페이스 - 수정중" />
+    <option name="LAST_COMMIT_MESSAGE" value="# day 11 ~ 12 commit&#10;1. java API - object, Calender ...&#10;2. generic &#10;3. set, list, map&#10;4. quiz - ing&#10;5. inputoutput &#10;6. 제너릭을 이용한 함수형인터페이스 - 수정중" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
